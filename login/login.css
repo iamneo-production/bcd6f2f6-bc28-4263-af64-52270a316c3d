@@ -4,8 +4,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Work Sans", sans-serif;
   transition: all 0.3s;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .Navlink {
@@ -31,10 +31,10 @@
 .logo {
   /* border: 1px solid red; */
   text-transform: uppercase;
-  font-family: "Stalemate", cursive;
+  font-family: "Courier New", Courier, monospace;
   font-weight: 900;
-  font-size: 1.2em;
-  color: #eb2f06;
+  font-size: 30px;
+  color: purple;
 }
 
 .nav-links {
@@ -71,9 +71,7 @@
   font-size: 1.3em;
 }
 
-.hero-section,
-.login-page,
-.register-page {
+.login-page {
   padding: 0 4%;
   width: 100%;
   height: 89.5%;
@@ -83,27 +81,17 @@
   justify-content: center;
 }
 
-.hero-section {
-  gap: 3%;
-}
-
-.hero-section h1 {
-  text-align: center;
-}
-
-.hero-section h1 span {
-  color: #eb2f06;
-  font-weight: 900;
-}
-
 .login-page-container {
   display: flex;
-  width: 50%;
+  width: 65%;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  height: 65vh;
 }
 
 .login-hero-img {
   width: 50%;
+  /* height: 100%; */
+  object-fit: cover;
 }
 
 .login-page-fields {
@@ -119,7 +107,7 @@
 }
 
 .login-logo {
-  width: 35%;
+  width: 20%;
 }
 
 #outlined-basic {
