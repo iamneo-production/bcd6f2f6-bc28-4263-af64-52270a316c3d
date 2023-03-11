@@ -30,7 +30,7 @@
 
 .logo {
   /* border: 1px solid red; */
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-family: "Stalemate", cursive;
   font-weight: 900;
   font-size: 1.2em;
